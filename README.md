@@ -1,5 +1,4 @@
 # TactileHD: a tactile preception framework based on hyperdimensional (HD) computing
-=====================================================================================
 Paper COMMING SOON.  
 
 ---
