@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Feb 28 16:04:39 2025
+# Process ID: 15892
+# Current directory: F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/d_active/d_active.runs/impl_1
+# Command line: vivado.exe -log d_active.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source d_active.tcl -notrace
+# Log file: F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/d_active/d_active.runs/impl_1/d_active.vdi
+# Journal file: F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/d_active/d_active.runs/impl_1\vivado.jou
+# Running On: DESKTOP-R2MU3CQ, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 34294 MB
+#-----------------------------------------------------------
+source d_active.tcl -notrace
