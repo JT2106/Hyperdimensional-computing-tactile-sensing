@@ -12,7 +12,7 @@ You can open and run this project through the project file "d_active.xpr" in [**
 ### d_control_gripper
 The project run to obtain grip-force control and object identification data. This project implements an incomplete version of **TactileHD**, excluding pbject identification and active incremental learning.  
 
-You can also open and run this project through the project file " d_control_gripper.xpr" in **Vivado 2023.1**. The HDL source code can be found in "d_control_gripper.srcs".  
+You can also open and run this project through the project file "d_control_gripper.xpr" in **Vivado 2023.1**. The HDL source code can be found in "d_control_gripper.srcs".  
 
 ### baseline models
 This folder includes the projects of HDL realizations of SVM, MLP, and GRU.
