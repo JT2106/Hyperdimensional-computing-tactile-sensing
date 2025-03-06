@@ -1,0 +1,2 @@
+AM_ROM.v,verilog,xil_defaultlib,../../../../d_active.gen/sources_1/ip/AM_ROM/sim/AM_ROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
