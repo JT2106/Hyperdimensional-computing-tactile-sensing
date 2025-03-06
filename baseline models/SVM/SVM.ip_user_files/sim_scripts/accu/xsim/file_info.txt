@@ -1,0 +1,2 @@
+accu.v,verilog,xil_defaultlib,../../../../SVM.gen/sources_1/ip/accu/sim/accu.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_SVM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_SVM" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,154.196 ns"></ZoomEndTime>
+      <Cursor1Time time="116.628 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="102" />
+   <wvobject fp_name="/tb_SVM/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/rawKeys" type="array">
+      <obj_property name="ElementShortName">rawKeys[8:0][14:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rawKeys[8:0][14:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/flag_in" type="logic">
+      <obj_property name="ElementShortName">flag_in</obj_property>
+      <obj_property name="ObjectShortName">flag_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/features" type="array">
+      <obj_property name="ElementShortName">features[134:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">features[134:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/fea_flag" type="array">
+      <obj_property name="ElementShortName">fea_flag[134:0]</obj_property>
+      <obj_property name="ObjectShortName">fea_flag[134:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/addrSVs_1" type="array">
+      <obj_property name="ElementShortName">addrSVs_1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">addrSVs_1[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/addrSVs_2" type="array">
+      <obj_property name="ElementShortName">addrSVs_2[16:0]</obj_property>
+      <obj_property name="ObjectShortName">addrSVs_2[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/addrSVs_3" type="array">
+      <obj_property name="ElementShortName">addrSVs_3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">addrSVs_3[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/rawSV_1" type="array">
+      <obj_property name="ElementShortName">rawSV_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rawSV_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/rawSV_2" type="array">
+      <obj_property name="ElementShortName">rawSV_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rawSV_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/rawSV_3" type="array">
+      <obj_property name="ElementShortName">rawSV_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rawSV_3[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/rSV_flag_1" type="logic">
+      <obj_property name="ElementShortName">rSV_flag_1</obj_property>
+      <obj_property name="ObjectShortName">rSV_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/rSV_flag_2" type="logic">
+      <obj_property name="ElementShortName">rSV_flag_2</obj_property>
+      <obj_property name="ObjectShortName">rSV_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/rSV_flag_3" type="logic">
+      <obj_property name="ElementShortName">rSV_flag_3</obj_property>
+      <obj_property name="ObjectShortName">rSV_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_1" type="array">
+      <obj_property name="ElementShortName">SV_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SV_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_flag_1" type="logic">
+      <obj_property name="ElementShortName">SV_flag_1</obj_property>
+      <obj_property name="ObjectShortName">SV_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_2" type="array">
+      <obj_property name="ElementShortName">SV_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SV_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_flag_2" type="logic">
+      <obj_property name="ElementShortName">SV_flag_2</obj_property>
+      <obj_property name="ObjectShortName">SV_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_3" type="array">
+      <obj_property name="ElementShortName">SV_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SV_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_flag_3" type="logic">
+      <obj_property name="ElementShortName">SV_flag_3</obj_property>
+      <obj_property name="ObjectShortName">SV_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/feaCnt" type="array">
+      <obj_property name="ElementShortName">feaCnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">feaCnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/fea" type="array">
+      <obj_property name="ElementShortName">fea[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fea[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_1_reg" type="array">
+      <obj_property name="ElementShortName">SV_1_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SV_1_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_flag_1_reg" type="logic">
+      <obj_property name="ElementShortName">SV_flag_1_reg</obj_property>
+      <obj_property name="ObjectShortName">SV_flag_1_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_2_reg" type="array">
+      <obj_property name="ElementShortName">SV_2_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SV_2_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_flag_2_reg" type="logic">
+      <obj_property name="ElementShortName">SV_flag_2_reg</obj_property>
+      <obj_property name="ObjectShortName">SV_flag_2_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_3_reg" type="array">
+      <obj_property name="ElementShortName">SV_3_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SV_3_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SV_flag_3_reg" type="logic">
+      <obj_property name="ElementShortName">SV_flag_3_reg</obj_property>
+      <obj_property name="ObjectShortName">SV_flag_3_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/subx_out_1" type="array">
+      <obj_property name="ElementShortName">subx_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">subx_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/sxo_flag_1" type="logic">
+      <obj_property name="ElementShortName">sxo_flag_1</obj_property>
+      <obj_property name="ObjectShortName">sxo_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/subx_out_2" type="array">
+      <obj_property name="ElementShortName">subx_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">subx_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/sxo_flag_2" type="logic">
+      <obj_property name="ElementShortName">sxo_flag_2</obj_property>
+      <obj_property name="ObjectShortName">sxo_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/subx_out_3" type="array">
+      <obj_property name="ElementShortName">subx_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">subx_out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/sxo_flag_3" type="logic">
+      <obj_property name="ElementShortName">sxo_flag_3</obj_property>
+      <obj_property name="ObjectShortName">sxo_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/square_out_1" type="array">
+      <obj_property name="ElementShortName">square_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">square_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/squao_flag_1" type="logic">
+      <obj_property name="ElementShortName">squao_flag_1</obj_property>
+      <obj_property name="ObjectShortName">squao_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/square_out_2" type="array">
+      <obj_property name="ElementShortName">square_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">square_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/squao_flag_2" type="logic">
+      <obj_property name="ElementShortName">squao_flag_2</obj_property>
+      <obj_property name="ObjectShortName">squao_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/square_out_3" type="array">
+      <obj_property name="ElementShortName">square_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">square_out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/squao_flag_3" type="logic">
+      <obj_property name="ElementShortName">squao_flag_3</obj_property>
+      <obj_property name="ObjectShortName">squao_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/getLastCnt_dis" type="array">
+      <obj_property name="ElementShortName">getLastCnt_dis[7:0]</obj_property>
+      <obj_property name="ObjectShortName">getLastCnt_dis[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/last_flag_dis_1" type="logic">
+      <obj_property name="ElementShortName">last_flag_dis_1</obj_property>
+      <obj_property name="ObjectShortName">last_flag_dis_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/last_flag_dis_2" type="logic">
+      <obj_property name="ElementShortName">last_flag_dis_2</obj_property>
+      <obj_property name="ObjectShortName">last_flag_dis_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/last_flag_dis_3" type="logic">
+      <obj_property name="ElementShortName">last_flag_dis_3</obj_property>
+      <obj_property name="ObjectShortName">last_flag_dis_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SVsCnt_1" type="array">
+      <obj_property name="ElementShortName">SVsCnt_1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">SVsCnt_1[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SVsCnt_2" type="array">
+      <obj_property name="ElementShortName">SVsCnt_2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">SVsCnt_2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/SVsCnt_3" type="array">
+      <obj_property name="ElementShortName">SVsCnt_3[12:0]</obj_property>
+      <obj_property name="ObjectShortName">SVsCnt_3[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/vecDis_1" type="array">
+      <obj_property name="ElementShortName">vecDis_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vecDis_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/vecDis_flag_1" type="logic">
+      <obj_property name="ElementShortName">vecDis_flag_1</obj_property>
+      <obj_property name="ObjectShortName">vecDis_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/vecDis_2" type="array">
+      <obj_property name="ElementShortName">vecDis_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vecDis_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/vecDis_flag_2" type="logic">
+      <obj_property name="ElementShortName">vecDis_flag_2</obj_property>
+      <obj_property name="ObjectShortName">vecDis_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/vecDis_3" type="array">
+      <obj_property name="ElementShortName">vecDis_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vecDis_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/vecDis_flag_3" type="logic">
+      <obj_property name="ElementShortName">vecDis_flag_3</obj_property>
+      <obj_property name="ObjectShortName">vecDis_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/divy_out_1" type="array">
+      <obj_property name="ElementShortName">divy_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divy_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/dyo_flag_1" type="logic">
+      <obj_property name="ElementShortName">dyo_flag_1</obj_property>
+      <obj_property name="ObjectShortName">dyo_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/divy_out_2" type="array">
+      <obj_property name="ElementShortName">divy_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divy_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/dyo_flag_2" type="logic">
+      <obj_property name="ElementShortName">dyo_flag_2</obj_property>
+      <obj_property name="ObjectShortName">dyo_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/divy_out_3" type="array">
+      <obj_property name="ElementShortName">divy_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divy_out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/dyo_flag_3" type="logic">
+      <obj_property name="ElementShortName">dyo_flag_3</obj_property>
+      <obj_property name="ObjectShortName">dyo_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/exp_out_1" type="array">
+      <obj_property name="ElementShortName">exp_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/eo_flag_1" type="logic">
+      <obj_property name="ElementShortName">eo_flag_1</obj_property>
+      <obj_property name="ObjectShortName">eo_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/exp_out_2" type="array">
+      <obj_property name="ElementShortName">exp_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/eo_flag_2" type="logic">
+      <obj_property name="ElementShortName">eo_flag_2</obj_property>
+      <obj_property name="ObjectShortName">eo_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/exp_out_3" type="array">
+      <obj_property name="ElementShortName">exp_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/eo_flag_3" type="logic">
+      <obj_property name="ElementShortName">eo_flag_3</obj_property>
+      <obj_property name="ObjectShortName">eo_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_out_1" type="array">
+      <obj_property name="ElementShortName">multa_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multa_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_flag_1" type="logic">
+      <obj_property name="ElementShortName">multa_flag_1</obj_property>
+      <obj_property name="ObjectShortName">multa_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_out_2" type="array">
+      <obj_property name="ElementShortName">multa_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multa_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_flag_2" type="logic">
+      <obj_property name="ElementShortName">multa_flag_2</obj_property>
+      <obj_property name="ObjectShortName">multa_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_out_3" type="array">
+      <obj_property name="ElementShortName">multa_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multa_out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_flag_3" type="logic">
+      <obj_property name="ElementShortName">multa_flag_3</obj_property>
+      <obj_property name="ObjectShortName">multa_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_flag_1_reg" type="logic">
+      <obj_property name="ElementShortName">multa_flag_1_reg</obj_property>
+      <obj_property name="ObjectShortName">multa_flag_1_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_flag_2_reg" type="logic">
+      <obj_property name="ElementShortName">multa_flag_2_reg</obj_property>
+      <obj_property name="ObjectShortName">multa_flag_2_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/multa_flag_3_reg" type="logic">
+      <obj_property name="ElementShortName">multa_flag_3_reg</obj_property>
+      <obj_property name="ObjectShortName">multa_flag_3_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/accu_in_1" type="array">
+      <obj_property name="ElementShortName">accu_in_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_in_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/ai_flag_1" type="logic">
+      <obj_property name="ElementShortName">ai_flag_1</obj_property>
+      <obj_property name="ObjectShortName">ai_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/last_flag_1" type="logic">
+      <obj_property name="ElementShortName">last_flag_1</obj_property>
+      <obj_property name="ObjectShortName">last_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/accu_in_2" type="array">
+      <obj_property name="ElementShortName">accu_in_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_in_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/ai_flag_2" type="logic">
+      <obj_property name="ElementShortName">ai_flag_2</obj_property>
+      <obj_property name="ObjectShortName">ai_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/last_flag_2" type="logic">
+      <obj_property name="ElementShortName">last_flag_2</obj_property>
+      <obj_property name="ObjectShortName">last_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/accu_in_3" type="array">
+      <obj_property name="ElementShortName">accu_in_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_in_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/ai_flag_3" type="logic">
+      <obj_property name="ElementShortName">ai_flag_3</obj_property>
+      <obj_property name="ObjectShortName">ai_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/last_flag_3" type="logic">
+      <obj_property name="ElementShortName">last_flag_3</obj_property>
+      <obj_property name="ObjectShortName">last_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/accu_out_1" type="array">
+      <obj_property name="ElementShortName">accu_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/ao_flag_1" type="logic">
+      <obj_property name="ElementShortName">ao_flag_1</obj_property>
+      <obj_property name="ObjectShortName">ao_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/accu_out_2" type="array">
+      <obj_property name="ElementShortName">accu_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/ao_flag_2" type="logic">
+      <obj_property name="ElementShortName">ao_flag_2</obj_property>
+      <obj_property name="ObjectShortName">ao_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/accu_out_3" type="array">
+      <obj_property name="ElementShortName">accu_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/ao_flag_3" type="logic">
+      <obj_property name="ElementShortName">ao_flag_3</obj_property>
+      <obj_property name="ObjectShortName">ao_flag_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/classifyCode" type="array">
+      <obj_property name="ElementShortName">classifyCode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">classifyCode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVM_sim/cc_flag" type="logic">
+      <obj_property name="ElementShortName">cc_flag</obj_property>
+      <obj_property name="ObjectShortName">cc_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/slip_state" type="array">
+      <obj_property name="ElementShortName">slip_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slip_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/slip_flag" type="logic">
+      <obj_property name="ElementShortName">slip_flag</obj_property>
+      <obj_property name="ObjectShortName">slip_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/VEC_DIM" type="array">
+      <obj_property name="ElementShortName">VEC_DIM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VEC_DIM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVS_NUM_1" type="array">
+      <obj_property name="ElementShortName">SVS_NUM_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SVS_NUM_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVS_NUM_2" type="array">
+      <obj_property name="ElementShortName">SVS_NUM_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SVS_NUM_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/SVS_NUM_3" type="array">
+      <obj_property name="ElementShortName">SVS_NUM_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SVS_NUM_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SVM/VOTE_NUM" type="array">
+      <obj_property name="ElementShortName">VOTE_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VOTE_NUM[31:0]</obj_property>
+   </wvobject>
+</wave_config>

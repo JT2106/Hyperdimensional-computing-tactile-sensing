@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../SVM.gen/sources_1/ip/fix2float_parameter/sim/fix2float_parameter.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

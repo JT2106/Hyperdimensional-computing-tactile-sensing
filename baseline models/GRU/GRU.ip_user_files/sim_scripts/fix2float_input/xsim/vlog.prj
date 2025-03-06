@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../GRU.gen/sources_1/ip/fix2float_input/sim/fix2float_input.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

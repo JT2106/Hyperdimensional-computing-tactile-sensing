@@ -1,0 +1,23 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/L1_ROM/sim/L1_ROM.v,1735380825,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/exp_inst.v,,L1_ROM,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/L2_ROM/sim/L2_ROM.v,1735380967,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/L1_ROM/sim/L1_ROM.v,,L2_ROM,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/accu/sim/accu.v,1735382985,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/mult/sim/mult.v,,accu,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/div/sim/div.v,1735383814,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/exp/sim/exp.v,,div,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/exp/sim/exp.v,1735383871,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/accu/sim/accu.v,,exp,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/fix2float_input/sim/fix2float_input.v,1735383936,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/L2_ROM/sim/L2_ROM.v,,fix2float_input,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/greater/sim/greater.v,1735383983,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/div/sim/div.v,,greater,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/mult/sim/mult.v,1735384032,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.gen/sources_1/ip/fix2float_input/sim/fix2float_input.v,,mult,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Artix7/MLP/MLP.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/L1_ROMs.sv,1735382580,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/L2_ROMs.sv,,L1_ROMs,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/L2_ROMs.sv,1735382596,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/MLP.sv,,L2_ROMs,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/MLP.sv,1735385637,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/accu_parallel.sv,,MLP,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/accu_parallel.sv,1735131211,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/div_parallel.sv,,accu_parallel,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/div_parallel.sv,1735301640,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/fix2float_inputs.sv,,div_parallel,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/exp_inst.v,1735221457,verilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/greater_inst.v,,exp_inst,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/fix2float_inputs.sv,1735207502,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/mult_parallel.sv,,fix2float_inputs,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/greater_inst.v,1735223445,verilog,,,,greater_inst,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/mult_parallel.sv,1735129569,systemVerilog,,F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/tb_MLP.sv,,mult_parallel,,uvm,,,,,,
+F:/01_SYSU/HDC_Tactile/tactile/code/Verilog_ML1/MLP/tb_MLP.sv,1735309277,systemVerilog,,,,tb_MLP,,uvm,,,,,,

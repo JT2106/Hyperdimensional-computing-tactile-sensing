@@ -1,0 +1,2 @@
+a_ROM2.v,verilog,xil_defaultlib,../../../../SVM.gen/sources_1/ip/a_ROM2/sim/a_ROM2.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

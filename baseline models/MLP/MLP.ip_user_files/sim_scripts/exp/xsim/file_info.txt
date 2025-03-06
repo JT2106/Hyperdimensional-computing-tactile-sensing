@@ -1,0 +1,2 @@
+exp.v,verilog,xil_defaultlib,../../../../MLP.gen/sources_1/ip/exp/sim/exp.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

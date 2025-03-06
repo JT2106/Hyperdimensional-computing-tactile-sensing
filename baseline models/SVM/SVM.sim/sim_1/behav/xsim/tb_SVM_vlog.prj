@@ -1,0 +1,40 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SVM.gen/sources_1/ip/accu/sim/accu.v" \
+"../../../../SVM.gen/sources_1/ip/b_ROM0/sim/b_ROM0.v" \
+"../../../../SVM.gen/sources_1/ip/mult/sim/mult.v" \
+"../../../../SVM.gen/sources_1/ip/a_ROM3/sim/a_ROM3.v" \
+"../../../../SVM.gen/sources_1/ip/a_ROM2/sim/a_ROM2.v" \
+"../../../../SVM.gen/sources_1/ip/a_ROM1/sim/a_ROM1.v" \
+"../../../../SVM.gen/sources_1/ip/exp/sim/exp.v" \
+"../../../../SVM.gen/sources_1/ip/div/sim/div.v" \
+"../../../../SVM.gen/sources_1/ip/sub/sim/sub.v" \
+"../../../../SVM.gen/sources_1/ip/fix2float_parameter/sim/fix2float_parameter.v" \
+"../../../../SVM.gen/sources_1/ip/SVs_ROM3/sim/SVs_ROM3.v" \
+"../../../../SVM.gen/sources_1/ip/SVs_ROM2/sim/SVs_ROM2.v" \
+"../../../../SVM.gen/sources_1/ip/SVs_ROM1/sim/SVs_ROM1.v" \
+"../../../../SVM.gen/sources_1/ip/fix2float_input/sim/fix2float_input.v" \
+"../../../../../../Verilog_ML1/SVM/SVs_ROM_1.v" \
+"../../../../../../Verilog_ML1/SVM/SVs_ROM_2.v" \
+"../../../../../../Verilog_ML1/SVM/SVs_ROM_3.v" \
+"../../../../../../Verilog_ML1/SVM/a_ROM_1.v" \
+"../../../../../../Verilog_ML1/SVM/a_ROM_2.v" \
+"../../../../../../Verilog_ML1/SVM/a_ROM_3.v" \
+"../../../../../../Verilog_ML1/SVM/accu_inst.v" \
+"../../../../../../Verilog_ML1/SVM/b_ROM.v" \
+"../../../../../../Verilog_ML1/SVM/div_inst.v" \
+"../../../../../../Verilog_ML1/SVM/exp_inst.v" \
+"../../../../../../Verilog_ML1/SVM/fix2float_parameters.v" \
+"../../../../../../Verilog_ML1/SVM/mult_inst.v" \
+"../../../../../../Verilog_ML1/SVM/sub_inst.v" \
+
+sv xil_defaultlib  \
+"../../../../../../Verilog_ML1/SVM/SVM.sv" \
+"../../../../../../Verilog_ML1/SVM/fix2float_inputs.sv" \
+"../../../../../../Verilog_ML1/SVM/tb_SVM.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

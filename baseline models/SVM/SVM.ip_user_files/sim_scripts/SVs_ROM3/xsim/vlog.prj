@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../SVM.gen/sources_1/ip/SVs_ROM3/sim/SVs_ROM3.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_GRU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_GRU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,394.643 ns"></ZoomEndTime>
+      <Cursor1Time time="6,780.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="153"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="101" />
+   <wvobject fp_name="/tb_GRU/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/rawKeys" type="array">
+      <obj_property name="ElementShortName">rawKeys[8:0][1:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rawKeys[8:0][1:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/flag_in" type="logic">
+      <obj_property name="ElementShortName">flag_in</obj_property>
+      <obj_property name="ObjectShortName">flag_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/features" type="array">
+      <obj_property name="ElementShortName">features[8:0][1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">features[8:0][1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/fea_flag" type="array">
+      <obj_property name="ElementShortName">fea_flag[8:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">fea_flag[8:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/H" type="array">
+      <obj_property name="ElementShortName">H[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">H[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/Hupdate_flag" type="logic">
+      <obj_property name="ElementShortName">Hupdate_flag</obj_property>
+      <obj_property name="ObjectShortName">Hupdate_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/Ncnt" type="array">
+      <obj_property name="ElementShortName">Ncnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ncnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/Hupdate_flag_reg" type="logic">
+      <obj_property name="ElementShortName">Hupdate_flag_reg</obj_property>
+      <obj_property name="ObjectShortName">Hupdate_flag_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/L0_inputs" type="array">
+      <obj_property name="ElementShortName">L0_inputs[16:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">L0_inputs[16:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/L0_in_flag" type="logic">
+      <obj_property name="ElementShortName">L0_in_flag</obj_property>
+      <obj_property name="ObjectShortName">L0_in_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/addr_RZ" type="array">
+      <obj_property name="ElementShortName">addr_RZ[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_RZ[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/RZ_flag" type="logic">
+      <obj_property name="ElementShortName">RZ_flag</obj_property>
+      <obj_property name="ObjectShortName">RZ_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/L0_Cnt" type="array">
+      <obj_property name="ElementShortName">L0_Cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">L0_Cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/multin1_w1reg" type="array">
+      <obj_property name="ElementShortName">multin1_w1reg[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">multin1_w1reg[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/multin2_w1reg" type="array">
+      <obj_property name="ElementShortName">multin2_w1reg[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">multin2_w1reg[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/multin1_w2reg" type="array">
+      <obj_property name="ElementShortName">multin1_w2reg[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">multin1_w2reg[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/multin2_w2reg" type="array">
+      <obj_property name="ElementShortName">multin2_w2reg[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">multin2_w2reg[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/RZ_flag_reg" type="logic">
+      <obj_property name="ElementShortName">RZ_flag_reg</obj_property>
+      <obj_property name="ObjectShortName">RZ_flag_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/w_flag1" type="logic">
+      <obj_property name="ElementShortName">w_flag1</obj_property>
+      <obj_property name="ObjectShortName">w_flag1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/w_flag2" type="logic">
+      <obj_property name="ElementShortName">w_flag2</obj_property>
+      <obj_property name="ObjectShortName">w_flag2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/mult_out1" type="array">
+      <obj_property name="ElementShortName">mult_out1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_out1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/mo_flag1" type="array">
+      <obj_property name="ElementShortName">mo_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mo_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/mult_out2" type="array">
+      <obj_property name="ElementShortName">mult_out2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_out2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/mo_flag2" type="array">
+      <obj_property name="ElementShortName">mo_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mo_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/mo_flag1_reg" type="logic">
+      <obj_property name="ElementShortName">mo_flag1_reg</obj_property>
+      <obj_property name="ObjectShortName">mo_flag1_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/mo_flag2_reg" type="logic">
+      <obj_property name="ElementShortName">mo_flag2_reg</obj_property>
+      <obj_property name="ObjectShortName">mo_flag2_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/add_ina" type="array">
+      <obj_property name="ElementShortName">add_ina[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_ina[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/add_inb" type="array">
+      <obj_property name="ElementShortName">add_inb[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_inb[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/adi_flag" type="array">
+      <obj_property name="ElementShortName">adi_flag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adi_flag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/accu_in1" type="array">
+      <obj_property name="ElementShortName">accu_in1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_in1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/accu_in2" type="array">
+      <obj_property name="ElementShortName">accu_in2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_in2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ai_flag1" type="array">
+      <obj_property name="ElementShortName">ai_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ai_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ai_flag2" type="array">
+      <obj_property name="ElementShortName">ai_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ai_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/last_flag1" type="array">
+      <obj_property name="ElementShortName">last_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">last_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/last_flag2" type="array">
+      <obj_property name="ElementShortName">last_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">last_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/accu_out1" type="array">
+      <obj_property name="ElementShortName">accu_out1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_out1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ao_flag1" type="array">
+      <obj_property name="ElementShortName">ao_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ao_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/accu_out2" type="array">
+      <obj_property name="ElementShortName">accu_out2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_out2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ao_flag2" type="array">
+      <obj_property name="ElementShortName">ao_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ao_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/exp_in1" type="array">
+      <obj_property name="ElementShortName">exp_in1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_in1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/exp_in2" type="array">
+      <obj_property name="ElementShortName">exp_in2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_in2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ei_flag1" type="array">
+      <obj_property name="ElementShortName">ei_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ei_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ei_flag2" type="array">
+      <obj_property name="ElementShortName">ei_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ei_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/exp_out1" type="array">
+      <obj_property name="ElementShortName">exp_out1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_out1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/eo_flag1" type="array">
+      <obj_property name="ElementShortName">eo_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eo_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/exp_out2" type="array">
+      <obj_property name="ElementShortName">exp_out2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_out2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/eo_flag2" type="array">
+      <obj_property name="ElementShortName">eo_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eo_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sub_ain1" type="array">
+      <obj_property name="ElementShortName">sub_ain1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_ain1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sub_bin1" type="array">
+      <obj_property name="ElementShortName">sub_bin1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_bin1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sub_ain2" type="array">
+      <obj_property name="ElementShortName">sub_ain2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_ain2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sub_bin2" type="array">
+      <obj_property name="ElementShortName">sub_bin2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_bin2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/si_flag1" type="array">
+      <obj_property name="ElementShortName">si_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">si_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/si_flag2" type="array">
+      <obj_property name="ElementShortName">si_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">si_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sub_out1" type="array">
+      <obj_property name="ElementShortName">sub_out1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_out1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/so_flag1" type="array">
+      <obj_property name="ElementShortName">so_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">so_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/add_out" type="array">
+      <obj_property name="ElementShortName">add_out[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_out[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/ado_flag" type="array">
+      <obj_property name="ElementShortName">ado_flag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ado_flag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sub_out2" type="array">
+      <obj_property name="ElementShortName">sub_out2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_out2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/so_flag2" type="array">
+      <obj_property name="ElementShortName">so_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">so_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/dividend1" type="array">
+      <obj_property name="ElementShortName">dividend1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/dividend2" type="array">
+      <obj_property name="ElementShortName">dividend2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/divisor1" type="array">
+      <obj_property name="ElementShortName">divisor1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/divisor2" type="array">
+      <obj_property name="ElementShortName">divisor2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/di_flag1" type="array">
+      <obj_property name="ElementShortName">di_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">di_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/di_flag2" type="array">
+      <obj_property name="ElementShortName">di_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">di_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/div_out1" type="array">
+      <obj_property name="ElementShortName">div_out1[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out1[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/do_flag1" type="array">
+      <obj_property name="ElementShortName">do_flag1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">do_flag1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/div_out2" type="array">
+      <obj_property name="ElementShortName">div_out2[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out2[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/do_flag2" type="array">
+      <obj_property name="ElementShortName">do_flag2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">do_flag2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/sgmd_flag" type="logic">
+      <obj_property name="ElementShortName">sgmd_flag</obj_property>
+      <obj_property name="ObjectShortName">sgmd_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/HmR" type="array">
+      <obj_property name="ElementShortName">HmR[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">HmR[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/HmR_flag" type="logic">
+      <obj_property name="ElementShortName">HmR_flag</obj_property>
+      <obj_property name="ObjectShortName">HmR_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/H_tilde" type="array">
+      <obj_property name="ElementShortName">H_tilde[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_tilde[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/H_tilde_flag" type="logic">
+      <obj_property name="ElementShortName">H_tilde_flag</obj_property>
+      <obj_property name="ObjectShortName">H_tilde_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/om_Z" type="array">
+      <obj_property name="ElementShortName">om_Z[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">om_Z[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/omZ_flag" type="logic">
+      <obj_property name="ElementShortName">omZ_flag</obj_property>
+      <obj_property name="ObjectShortName">omZ_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/H" type="array">
+      <obj_property name="ElementShortName">H[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">H[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/Hupdate_flag" type="logic">
+      <obj_property name="ElementShortName">Hupdate_flag</obj_property>
+      <obj_property name="ObjectShortName">Hupdate_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/L2_flag" type="logic">
+      <obj_property name="ElementShortName">L2_flag</obj_property>
+      <obj_property name="ObjectShortName">L2_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/L2_Cnt" type="array">
+      <obj_property name="ElementShortName">L2_Cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">L2_Cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/L2_flag_reg" type="logic">
+      <obj_property name="ElementShortName">L2_flag_reg</obj_property>
+      <obj_property name="ObjectShortName">L2_flag_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/compare_in1" type="array">
+      <obj_property name="ElementShortName">compare_in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/compare_in2" type="array">
+      <obj_property name="ElementShortName">compare_in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">compare_in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/compare_flag" type="logic">
+      <obj_property name="ElementShortName">compare_flag</obj_property>
+      <obj_property name="ObjectShortName">compare_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/compareCnt" type="array">
+      <obj_property name="ElementShortName">compareCnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">compareCnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/compareCode" type="array">
+      <obj_property name="ElementShortName">compareCode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">compareCode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/cc_flag" type="logic">
+      <obj_property name="ElementShortName">cc_flag</obj_property>
+      <obj_property name="ObjectShortName">cc_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/slip_state" type="array">
+      <obj_property name="ElementShortName">slip_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slip_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/slip_flag" type="logic">
+      <obj_property name="ElementShortName">slip_flag</obj_property>
+      <obj_property name="ObjectShortName">slip_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/GRU_sim/pCnt" type="array">
+      <obj_property name="ElementShortName">pCnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pCnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/INPUT_SIZE" type="array">
+      <obj_property name="ElementShortName">INPUT_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/HIDDEN_UNITS" type="array">
+      <obj_property name="ElementShortName">HIDDEN_UNITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HIDDEN_UNITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/NODE_NUM_L0" type="array">
+      <obj_property name="ElementShortName">NODE_NUM_L0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NODE_NUM_L0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/NODE_NUM_L1" type="array">
+      <obj_property name="ElementShortName">NODE_NUM_L1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NODE_NUM_L1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/NODE_NUM_L2" type="array">
+      <obj_property name="ElementShortName">NODE_NUM_L2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NODE_NUM_L2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_GRU/NODE_NUM_MAX" type="array">
+      <obj_property name="ElementShortName">NODE_NUM_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NODE_NUM_MAX[31:0]</obj_property>
+   </wvobject>
+</wave_config>

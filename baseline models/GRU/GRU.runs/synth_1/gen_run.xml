@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1735887516" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/GRU.dcp">
+  <File Type="PA-TCL" Name="GRU.tcl"/>
+  <File Type="REPORTS-TCL" Name="GRU_reports.tcl"/>
+  <File Type="RDS-RDS" Name="GRU.vds"/>
+  <File Type="RDS-UTIL" Name="GRU_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="GRU_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="GRU.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/greater/greater.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/adder/adder.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/div/div.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/sub/sub.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/exp/exp.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/accu/accu.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mult/mult.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/L2_ROM/L2_ROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/L1_ROM/L1_ROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fix2float_input/fix2float_input.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/greater_inst.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/greater_inst.v"/>
+        <Attr Name="ImportTime" Val="1735818720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/L2_ROMs.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/L2_ROMs.sv"/>
+        <Attr Name="ImportTime" Val="1735820410"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/accu_parallel1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/accu_parallel1.sv"/>
+        <Attr Name="ImportTime" Val="1735558663"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/accu_parallel2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/accu_parallel2.sv"/>
+        <Attr Name="ImportTime" Val="1735558669"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/adder_parallel.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/adder_parallel.sv"/>
+        <Attr Name="ImportTime" Val="1735823760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/div_parallel1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/div_parallel1.sv"/>
+        <Attr Name="ImportTime" Val="1735823631"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/div_parallel2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/div_parallel2.sv"/>
+        <Attr Name="ImportTime" Val="1735823621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/exp_parallel1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/exp_parallel1.sv"/>
+        <Attr Name="ImportTime" Val="1735563039"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/exp_parallel2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/exp_parallel2.sv"/>
+        <Attr Name="ImportTime" Val="1735563037"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/fix2float_inputs.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/fix2float_inputs.sv"/>
+        <Attr Name="ImportTime" Val="1735543352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/mult_parallel1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/mult_parallel1.sv"/>
+        <Attr Name="ImportTime" Val="1735557076"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/mult_parallel2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/mult_parallel2.sv"/>
+        <Attr Name="ImportTime" Val="1735557102"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/paraH_tilde_ROMs.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/paraH_tilde_ROMs.sv"/>
+        <Attr Name="ImportTime" Val="1735638621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/paraR_ROMs.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/paraR_ROMs.sv"/>
+        <Attr Name="ImportTime" Val="1735638584"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/paraZ_ROMs.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/paraZ_ROMs.sv"/>
+        <Attr Name="ImportTime" Val="1735638577"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/sub_parallel1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/sub_parallel1.sv"/>
+        <Attr Name="ImportTime" Val="1735823433"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/sub_parallel2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/sub_parallel2.sv"/>
+        <Attr Name="ImportTime" Val="1735823450"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GRU/GRU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Verilog_ML1/GRU/GRU.sv"/>
+        <Attr Name="ImportTime" Val="1735833867"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="GRU"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/GRU.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

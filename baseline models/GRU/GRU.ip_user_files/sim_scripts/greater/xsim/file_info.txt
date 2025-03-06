@@ -1,0 +1,2 @@
+greater.v,verilog,xil_defaultlib,../../../../GRU.gen/sources_1/ip/greater/sim/greater.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

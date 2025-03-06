@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MLP.gen/sources_1/ip/greater/sim/greater.v" \
+"../../../../MLP.gen/sources_1/ip/div/sim/div.v" \
+"../../../../MLP.gen/sources_1/ip/exp/sim/exp.v" \
+"../../../../MLP.gen/sources_1/ip/accu/sim/accu.v" \
+"../../../../MLP.gen/sources_1/ip/mult/sim/mult.v" \
+"../../../../MLP.gen/sources_1/ip/fix2float_input/sim/fix2float_input.v" \
+"../../../../MLP.gen/sources_1/ip/L2_ROM/sim/L2_ROM.v" \
+"../../../../MLP.gen/sources_1/ip/L1_ROM/sim/L1_ROM.v" \
+"../../../../../../Verilog_ML1/MLP/exp_inst.v" \
+"../../../../../../Verilog_ML1/MLP/greater_inst.v" \
+
+sv xil_defaultlib  \
+"../../../../../../Verilog_ML1/MLP/L1_ROMs.sv" \
+"../../../../../../Verilog_ML1/MLP/L2_ROMs.sv" \
+"../../../../../../Verilog_ML1/MLP/MLP.sv" \
+"../../../../../../Verilog_ML1/MLP/accu_parallel.sv" \
+"../../../../../../Verilog_ML1/MLP/div_parallel.sv" \
+"../../../../../../Verilog_ML1/MLP/fix2float_inputs.sv" \
+"../../../../../../Verilog_ML1/MLP/mult_parallel.sv" \
+"../../../../../../Verilog_ML1/MLP/tb_MLP.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

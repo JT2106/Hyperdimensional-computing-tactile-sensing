@@ -1,0 +1,39 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../GRU.gen/sources_1/ip/greater/sim/greater.v" \
+"../../../../GRU.gen/sources_1/ip/adder/sim/adder.v" \
+"../../../../GRU.gen/sources_1/ip/div/sim/div.v" \
+"../../../../GRU.gen/sources_1/ip/sub/sim/sub.v" \
+"../../../../GRU.gen/sources_1/ip/exp/sim/exp.v" \
+"../../../../GRU.gen/sources_1/ip/accu/sim/accu.v" \
+"../../../../GRU.gen/sources_1/ip/mult/sim/mult.v" \
+"../../../../GRU.gen/sources_1/ip/L2_ROM/sim/L2_ROM.v" \
+"../../../../GRU.gen/sources_1/ip/L1_ROM/sim/L1_ROM.v" \
+"../../../../GRU.gen/sources_1/ip/fix2float_input/sim/fix2float_input.v" \
+"../../../../../../Verilog_ML1/GRU/greater_inst.v" \
+
+sv xil_defaultlib  \
+"../../../../../../Verilog_ML1/GRU/GRU.sv" \
+"../../../../../../Verilog_ML1/GRU/L2_ROMs.sv" \
+"../../../../../../Verilog_ML1/GRU/accu_parallel1.sv" \
+"../../../../../../Verilog_ML1/GRU/accu_parallel2.sv" \
+"../../../../../../Verilog_ML1/GRU/adder_parallel.sv" \
+"../../../../../../Verilog_ML1/GRU/div_parallel1.sv" \
+"../../../../../../Verilog_ML1/GRU/div_parallel2.sv" \
+"../../../../../../Verilog_ML1/GRU/exp_parallel1.sv" \
+"../../../../../../Verilog_ML1/GRU/exp_parallel2.sv" \
+"../../../../../../Verilog_ML1/GRU/fix2float_inputs.sv" \
+"../../../../../../Verilog_ML1/GRU/mult_parallel1.sv" \
+"../../../../../../Verilog_ML1/GRU/mult_parallel2.sv" \
+"../../../../../../Verilog_ML1/GRU/paraH_tilde_ROMs.sv" \
+"../../../../../../Verilog_ML1/GRU/paraR_ROMs.sv" \
+"../../../../../../Verilog_ML1/GRU/paraZ_ROMs.sv" \
+"../../../../../../Verilog_ML1/GRU/sub_parallel1.sv" \
+"../../../../../../Verilog_ML1/GRU/sub_parallel2.sv" \
+"../../../../../../Verilog_ML1/GRU/tb_GRU.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
