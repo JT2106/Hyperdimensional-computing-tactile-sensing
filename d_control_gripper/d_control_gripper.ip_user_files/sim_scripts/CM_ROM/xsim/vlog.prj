@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../d_control_gripper.gen/sources_1/ip/CM_ROM/sim/CM_ROM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

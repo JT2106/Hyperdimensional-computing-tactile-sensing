@@ -1,0 +1,46 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Fri Feb 28 17:29:22 2025
+| Host         : DESKTOP-R2MU3CQ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file d_control_gripper_methodology_drc_routed.rpt -pb d_control_gripper_methodology_drc_routed.pb -rpx d_control_gripper_methodology_drc_routed.rpx
+| Design       : d_control_gripper
+| Device       : xc7a200tfbg484-2
+| Speed File   : -2
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++----------+------------------+----------------------------------------------------+------------+
+| Rule     | Severity         | Description                                        | Violations |
++----------+------------------+----------------------------------------------------+------------+
+| TIMING-2 | Critical Warning | Invalid primary clock source pin                   | 1          |
+| TIMING-4 | Critical Warning | Invalid primary clock redefinition on a clock tree | 1          |
++----------+------------------+----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-2#1 Critical Warning
+Invalid primary clock source pin  
+A primary clock clk_wiz_0_inst/inst/clk_in1 is created on an inappropriate pin clk_wiz_0_inst/inst/clk_in1. It is recommended to create a primary clock only on a proper clock source (input port or primitive output pin with no timing arc)
+Related violations: <none>
+
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock clk_wiz_0_inst/inst/clk_in1 is defined downstream of clock sys_clk_p and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+

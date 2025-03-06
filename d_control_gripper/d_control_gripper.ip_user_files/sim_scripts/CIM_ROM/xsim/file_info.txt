@@ -1,0 +1,2 @@
+CIM_ROM.v,verilog,xil_defaultlib,../../../../d_control_gripper.gen/sources_1/ip/CIM_ROM/sim/CIM_ROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

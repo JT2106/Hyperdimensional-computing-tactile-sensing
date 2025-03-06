@@ -1,0 +1,2 @@
+cordic_0.vhd,vhdl,xil_defaultlib,../../../../d_control_gripper.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

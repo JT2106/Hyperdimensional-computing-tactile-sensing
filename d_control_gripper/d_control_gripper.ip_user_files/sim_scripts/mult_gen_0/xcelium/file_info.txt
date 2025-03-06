@@ -1,0 +1,8 @@
+xpm_cdc.sv,systemverilog,xpm,E:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_VCOMP.vhd,vhdl,xpm,E:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_VCOMP.vhd,
+xbip_utils_v3_0_vh_rfs.vhd,vhdl,xbip_utils_v3_0_10,../../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd,
+xbip_pipe_v3_0_vh_rfs.vhd,vhdl,xbip_pipe_v3_0_6,../../../ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd,
+xbip_bram18k_v3_0_vh_rfs.vhd,vhdl,xbip_bram18k_v3_0_6,../../../ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd,
+mult_gen_v12_0_vh_rfs.vhd,vhdl,mult_gen_v12_0_18,../../../ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd,
+mult_gen_0.vhd,vhdl,xil_defaultlib,../../../../d_control_gripper.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v
